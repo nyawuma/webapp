@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM ubuntu:22.10
 MAINTAINER eazytraining (eazytrainingfr@gmail.com)
 RUN apt-get update
 RUN DEBIAN_FRONTEND=noninteractive apt-get install -y nginx git
